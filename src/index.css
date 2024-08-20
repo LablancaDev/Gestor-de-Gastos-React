@@ -1,0 +1,95 @@
+body{
+  background:linear-gradient(rgb(122, 122, 212), rgb(179, 242, 255) ,rgb(74, 172, 204));
+}
+.container a{
+  text-decoration: none;
+}
+/* estilos menu principal */
+.contenedor_menu{
+  margin-top: 12em;
+  height: 100vh;
+}
+.title{
+  color: rgb(105, 20, 196);
+}
+.caja{
+  border: 2px solid purple;
+  border-radius: 7px;
+  background: linear-gradient(rgb(161, 25, 215), rgb(96, 145, 237));
+  color: rgb(255, 225, 94);
+  text-decoration: none;
+}
+.caja:hover{
+  background: #c56dfc;
+}
+.no_underline{
+  text-decoration: none;
+}
+img{
+  height: 7em;
+}
+/* Ingresos */
+.contenedor_ingresos {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: #6dc3fc; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+/* formulario */
+.container-login{
+  margin-top: 12em;
+  width: 50%;
+}
+.container-form{
+  border: 2px solid rgb(11, 92, 151);
+  border-radius: 7px;
+  padding: 2em;
+  background-color: rgb(197, 230, 255);
+}
+/* Ajuste botón eliminar usuario del localstorage */
+.removeButton{
+  width: 60px;
+  font-size: 0.7em;
+  border-radius: 30%;
+  border: 1px solid rgb(135, 8, 8);
+  padding: 0;
+}
+/* Gastos */
+.contenedor-gastos{
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle2{
+  width: 150px;
+  height: 150px;
+  background-color: #d66666; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+/* Dashboard */
+.contenedor_balance{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
